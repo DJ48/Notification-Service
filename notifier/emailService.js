@@ -9,8 +9,8 @@ module.exports = nodemailer.createTransport({
     port : 465,
     host : "smtp.gmail.com",
     auth : {
-        user : "1606020@kiit.ac.in",
-        pass : "wfkkknbfokqnebbf"
+        user : "dummy_mail",
+        pass : "dummy password"
     },
     secure : true
 });
